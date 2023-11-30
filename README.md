@@ -7,7 +7,7 @@ This is all configured so you only need to edit the source files in Quarto (.qmd
 
 ## Using this template
 
-1. Click on green button "Use this template" -> "Create a new repository"
+1. Click on green button "Code" -> ""
 
 1. Choose a name for your repository
 
