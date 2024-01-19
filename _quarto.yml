@@ -37,27 +37,27 @@ website:
         file: competition.qmd
       
   sidebar:
-    - title: "DS250 Projects"
+    - title: "DS 250 Projects"
       style: "docked"
       background: light
       contents:
-        - text: "DS250 Projects"
-          file: /Projects/projects.qmd
+        - text: "DS 250 Projects"
+          file: Projects/projects.qmd
         - text: "---"
         - text: "Project 1"
-          file: /Projects/project1.qmd
+          file: Projects/project1.qmd
         - text: "---"
         - text: "Project 2"
-          file: /Projects/project2.qmd
+          file: Projects/project2.qmd
         - text: "---"
         - text: "Project 3"
-          file: /Projects/project3.qmd
+          file: Projects/project3.qmd
         - text: "---"
         - text: "Project 4"
-          file: /Projects/project4.qmd
+          file: Projects/project4.qmd
         - text: "---"
         - text: "Project 5"
-          file: /Projects/project5.qmd
+          file: Projects/project5.qmd
         - text: "---"
         #continue the pattern if you need more links
         #copy paste from title and keep it indented to sidebar to add additonal sidebar navigation for other pages
