@@ -21,6 +21,8 @@ website:
     right:
       - text: "Home"
         file: index.qmd
+      - text: "DS250 Projects"
+        file: /Projects/projects.qmd
       - text: "Data Cleansing"
         file: cleansing.qmd
       - text: "Data Exploration"
@@ -34,22 +36,31 @@ website:
       - text: "Competition"
         file: competition.qmd
       
-  # sidebar:
-  #   - title: "Match_Name_in_Navbar_Above"
-  #     style: "docked"
-  #     background: light
-  #     contents:
-  #       - text: "Match_Name_in_Navbar_Above"
-  #         file: Match_Name_in_Navbar_Above.qmd
-  #       - text: "---"
-  #       - text: "2nd Sidebar Link"
-  #         file: path_2.qmd
-  #       - text: "---"
-  #       - text: "2nd Sidebar Link"
-  #         file: path_3.qmd
-  #       - text: "---"
-  #       #continue the pattern if you need more links
-  #       #copy paste from title and keep it indented to sidebar to add additonal sidebar navigation for other pages
+  sidebar:
+    - title: "DS250 Projects"
+      style: "docked"
+      background: light
+      contents:
+        - text: "DS250 Projects"
+          file: /Projects/projects.qmd
+        - text: "---"
+        - text: "Project 1"
+          file: /Projects/project1.qmd
+        - text: "---"
+        - text: "Project 2"
+          file: /Projects/project2.qmd
+        - text: "---"
+        - text: "Project 3"
+          file: /Projects/project3.qmd
+        - text: "---"
+        - text: "Project 4"
+          file: /Projects/project4.qmd
+        - text: "---"
+        - text: "Project 5"
+          file: /Projects/project5.qmd
+        - text: "---"
+        #continue the pattern if you need more links
+        #copy paste from title and keep it indented to sidebar to add additonal sidebar navigation for other pages
 
 format:  
   html:
