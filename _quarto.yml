@@ -22,7 +22,9 @@ website:
       - text: "Home"
         file: index.qmd
       - text: "DS250 Projects"
-        file: /Projects/projects.qmd
+        file: Projects/projects.qmd
+      - text: "My Resume"
+        file: resume.qmd
       - text: "Data Cleansing"
         file: cleansing.qmd
       - text: "Data Exploration"
