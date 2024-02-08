@@ -25,6 +25,9 @@ execute:
     
 ---
 
+### Uncomment the entire section to use this template
+
+<!-- 
 ```{python}
 #| label: libraries
 #| include: false
@@ -189,4 +192,4 @@ mydat = df.head(1000)\
 
 display(mydat)
 
-```
+``` -->
