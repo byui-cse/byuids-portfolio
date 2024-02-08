@@ -13,8 +13,9 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-        with:
-          node-version: 20
+        # runs:
+        #   using: 'node20'
+        #   main: 'main.js'
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
