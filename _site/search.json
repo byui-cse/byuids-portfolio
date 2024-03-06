@@ -4,14 +4,14 @@
     "href": "competition.html",
     "title": "about me",
     "section": "",
-    "text": "MarkDown Basics"
+    "text": "MarkDown Basics\n#’ — #’ title: Palmer Penguins #’ author: Norah Jones #’ date: 3/12/23 #’ format: html #’ —\nlibrary(palmerpenguins)\n#’ ## Exploring the data #’ See ?@fig-bill-sizes for an exploration of bill sizes by species.\n#| label: fig-bill-sizes #| fig-cap: Bill Sizes by Species #| warning: false library(ggplot2) ggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_mm, group = species)) + geom_point(aes(color = species, shape = species), size = 3, alpha = 0.8) + labs(title = “Penguin bill dimensions”, subtitle = “Bill length and depth for Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER”, x = “Bill length (mm)”, y = “Bill depth (mm)”, color = “Penguin species”, shape = “Penguin species”)"
   },
   {
     "objectID": "competition.html#title-2-header",
     "href": "competition.html#title-2-header",
     "title": "about me",
     "section": "",
-    "text": "MarkDown Basics"
+    "text": "MarkDown Basics\n#’ — #’ title: Palmer Penguins #’ author: Norah Jones #’ date: 3/12/23 #’ format: html #’ —\nlibrary(palmerpenguins)\n#’ ## Exploring the data #’ See ?@fig-bill-sizes for an exploration of bill sizes by species.\n#| label: fig-bill-sizes #| fig-cap: Bill Sizes by Species #| warning: false library(ggplot2) ggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_mm, group = species)) + geom_point(aes(color = species, shape = species), size = 3, alpha = 0.8) + labs(title = “Penguin bill dimensions”, subtitle = “Bill length and depth for Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER”, x = “Bill length (mm)”, y = “Bill depth (mm)”, color = “Penguin species”, shape = “Penguin species”)"
   },
   {
     "objectID": "story_telling.html",
@@ -46,7 +46,11 @@
     "href": "Projects/project3.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "paste your elevator pitch here A SHORT (4-5 SENTENCES) PARAGRAPH THAT DESCRIBES KEY INSIGHTS TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS.\n\n\nRead and format project data\n# Include and execute your code here\ndf = pd.read_csv(\"https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv\")\n\n\nHighlight the Questions and Tasks"
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 3"
+    ]
   },
   {
     "objectID": "Projects/project3.html#elevator-pitch",
@@ -81,7 +85,11 @@
     "href": "Projects/project1.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "paste your elevator pitch here A SHORT (4-5 SENTENCES) PARAGRAPH THAT DESCRIBES KEY INSIGHTS TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS.\n\n\nRead and format project data\n# Include and execute your code here\ndf = pd.read_csv(\"https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv\")\n\n\nHighlight the Questions and Tasks"
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 1"
+    ]
   },
   {
     "objectID": "Projects/project1.html#elevator-pitch",
@@ -116,7 +124,11 @@
     "href": "Projects/project4.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "paste your elevator pitch here A SHORT (4-5 SENTENCES) PARAGRAPH THAT DESCRIBES KEY INSIGHTS TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS.\n\n\nRead and format project data\n# Include and execute your code here\ndf = pd.read_csv(\"https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv\")\n\n\nHighlight the Questions and Tasks"
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 4"
+    ]
   },
   {
     "objectID": "Projects/project4.html#elevator-pitch",
@@ -221,7 +233,11 @@
     "href": "Projects/project5.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "paste your elevator pitch here A SHORT (4-5 SENTENCES) PARAGRAPH THAT DESCRIBES KEY INSIGHTS TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS.\n\n\nRead and format project data\n# Include and execute your code here\ndf = pd.read_csv(\"https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv\")\n\n\nHighlight the Questions and Tasks"
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 5"
+    ]
   },
   {
     "objectID": "Projects/project5.html#elevator-pitch",
@@ -256,7 +272,11 @@
     "href": "Projects/project2.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "paste your elevator pitch here A SHORT (4-5 SENTENCES) PARAGRAPH THAT DESCRIBES KEY INSIGHTS TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS.\n\n\nRead and format project data\n# Include and execute your code here\ndf = pd.read_csv(\"https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv\")\n\n\nHighlight the Questions and Tasks"
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 2"
+    ]
   },
   {
     "objectID": "Projects/project2.html#elevator-pitch",
@@ -327,5 +347,19 @@
     "title": "about me",
     "section": "",
     "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "Templates/DS250_Template.html",
+    "href": "Templates/DS250_Template.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Uncomment the entire section to use this template\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Templates/DS350_Template.html",
+    "href": "Templates/DS350_Template.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "TODO: Update with template from Paul\n\n\n\n\n Back to top"
   }
 ]
