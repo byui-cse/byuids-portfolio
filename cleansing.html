@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -148,15 +148,6 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#title-2-header" id="toc-title-2-header" class="nav-link" data-scroll-target="#title-2-header">Title 2 Header</a></li>
   </ul></li>
-  <li><a href="#markdown" id="toc-markdown" class="nav-link" data-scroll-target="#markdown">%% [markdown]</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">—</a></li>
-  <li><a href="#title-palmer-penguins" id="toc-title-palmer-penguins" class="nav-link" data-scroll-target="#title-palmer-penguins">title: Palmer Penguins</a></li>
-  <li><a href="#author-norah-jones" id="toc-author-norah-jones" class="nav-link" data-scroll-target="#author-norah-jones">author: Norah Jones</a></li>
-  <li><a href="#date-31223" id="toc-date-31223" class="nav-link" data-scroll-target="#date-31223">date: 3/12/23</a></li>
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">—</a></li>
-  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">%%</a></li>
-  <li><a href="#markdown-1" id="toc-markdown-1" class="nav-link" data-scroll-target="#markdown-1">%% [markdown]</a></li>
-  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3">%%</a></li>
   </ul>
 </nav>
     </div>
@@ -188,43 +179,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="title-2-header" class="level2">
 <h2 class="anchored" data-anchor-id="title-2-header">Title 2 Header</h2>
 <p><a href="https://quarto.org/docs/authoring/markdown-basics.html#links-images">MarkDown Basics</a></p>
-</section>
-</section>
-<section id="markdown" class="level1">
-<h1>%% [markdown]</h1>
-</section>
-<section id="section" class="level1">
-<h1>—</h1>
-</section>
-<section id="title-palmer-penguins" class="level1">
-<h1>title: Palmer Penguins</h1>
-</section>
-<section id="author-norah-jones" class="level1">
-<h1>author: Norah Jones</h1>
-</section>
-<section id="date-31223" class="level1">
-<h1>date: 3/12/23</h1>
-</section>
-<section id="section-1" class="level1">
-<h1>—</h1>
-</section>
-<section id="section-2" class="level1">
-<h1>%%</h1>
-<p>#| echo: false import pandas as pd df = pd.read_csv(“palmer-penguins.csv”)</p>
-</section>
-<section id="markdown-1" class="level1">
-<h1>%% [markdown]</h1>
-<p>““” ## Exploring the data</p>
-<p>See <strong>?@fig-bill-sizes</strong> for an exploration of bill sizes by species. ““”</p>
-</section>
-<section id="section-3" class="level1">
-<h1>%%</h1>
-<p>#| label: fig-bill-sizes #| fig-cap: Bill Sizes by Species</p>
-<p>import matplotlib.pyplot as plt<br>
-import seaborn as sns</p>
-<p>g = sns.FacetGrid(df, hue=“species”, height=3, aspect=3.5/1.5) g.map(plt.scatter, “bill_length_mm”, “bill_depth_mm”).add_legend()</p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
