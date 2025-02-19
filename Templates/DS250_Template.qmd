@@ -34,6 +34,7 @@ execute:
 import pandas as pd
 import numpy as np
 import plotly.express as px
+
 ```
 
 
@@ -43,7 +44,7 @@ _paste your elevator pitch here_
 _A SHORT (4-5 SENTENCES) PARAGRAPH THAT `DESCRIBES KEY INSIGHTS` TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS._
 
 ```{python}
-#| label: project data
+#| label: project-data
 #| code-summary: Read and format project data
 # Include and execute your code here
 df = pd.read_csv("https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv")
@@ -68,7 +69,7 @@ _type your results and analysis here_
 _include figures in chunks and discuss your findings in the figure._
 
 ```{python}
-#| label: Q1 chart
+#| label: Q1_chart
 #| code-summary: plot example
 #| fig-cap: "My useless chart"
 #| fig-align: center
